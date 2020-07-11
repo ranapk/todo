@@ -21,7 +21,7 @@ export default function AddTodo({submitHandler}) {
         onChangeText={changeHandler}
         value={text}
       />
-      <Button color="coral" onPress={pressHandler} title="add todo" />
+      <Button color="#8BC34A" onPress={pressHandler} title="add todo" />
     </View>
   );
 }
